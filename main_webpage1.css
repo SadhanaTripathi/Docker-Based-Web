@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    background: linear-gradient(to left, #1e53d9, #3fb7eb);
+}
+
+.container {
+    padding: 20px;
+}
+
+.container-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    background: #fff;
+    border-radius: 18px;
+    padding: 50px 42px 30px;
+}
+
+.login-title {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 64px;
+    font-family: 'Pacifico', cursive;
+}
+
+.submit-btn-wrapper {
+    display: block;
+    text-align: center;
+}
+
+.submit-btn {
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #57b846;
+    color: #fff;
+    width: 50%;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.submit-btn:hover {
+    background-color: #222;
+    cursor: pointer;
+}
+
+.submit-btn span {
+    font-family: 'Akaya Telivigala', cursive;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
